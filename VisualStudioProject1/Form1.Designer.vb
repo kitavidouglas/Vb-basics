@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -22,136 +22,137 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        btnStart = New Button()
-        btnDataType = New Button()
-        txtFirstName = New TextBox()
-        lblFirstName = New Label()
-        txtLastName = New TextBox()
-        lblLastName = New Label()
-        lblGender = New Label()
-        txtGender = New TextBox()
-        btnNameGo = New Button()
-        lstOccupation = New ListBox()
-        lblOccupation = New Label()
-        SuspendLayout()
+        Me.btnStart = New System.Windows.Forms.Button()
+        Me.btnDataType = New System.Windows.Forms.Button()
+        Me.txtFirstName = New System.Windows.Forms.TextBox()
+        Me.lblFirstName = New System.Windows.Forms.Label()
+        Me.txtLastName = New System.Windows.Forms.TextBox()
+        Me.lblLastName = New System.Windows.Forms.Label()
+        Me.lblGender = New System.Windows.Forms.Label()
+        Me.txtGender = New System.Windows.Forms.TextBox()
+        Me.btnNameGo = New System.Windows.Forms.Button()
+        Me.lstOccupation = New System.Windows.Forms.ListBox()
+        Me.lblOccupation = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
         ' 
         ' btnStart
         ' 
-        btnStart.BackColor = SystemColors.HotTrack
-        btnStart.Location = New Point(89, 362)
-        btnStart.Name = "btnStart"
-        btnStart.Size = New Size(207, 66)
-        btnStart.TabIndex = 0
-        btnStart.Text = "Press here"
-        btnStart.UseVisualStyleBackColor = False
+        Me.btnStart.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.btnStart.Location = New System.Drawing.Point(89, 362)
+        Me.btnStart.Name = "btnStart"
+        Me.btnStart.Size = New System.Drawing.Size(207, 66)
+        Me.btnStart.TabIndex = 0
+        Me.btnStart.Text = "Press here"
+        Me.btnStart.UseVisualStyleBackColor = False
         ' 
         ' btnDataType
         ' 
-        btnDataType.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(192))
-        btnDataType.Location = New Point(381, 362)
-        btnDataType.Name = "btnDataType"
-        btnDataType.Size = New Size(217, 61)
-        btnDataType.TabIndex = 1
-        btnDataType.Text = "datatype"
-        btnDataType.UseVisualStyleBackColor = False
+        Me.btnDataType.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnDataType.Location = New System.Drawing.Point(381, 362)
+        Me.btnDataType.Name = "btnDataType"
+        Me.btnDataType.Size = New System.Drawing.Size(217, 61)
+        Me.btnDataType.TabIndex = 1
+        Me.btnDataType.Text = "datatype"
+        Me.btnDataType.UseVisualStyleBackColor = False
         ' 
         ' txtFirstName
         ' 
-        txtFirstName.Location = New Point(173, 35)
-        txtFirstName.Name = "txtFirstName"
-        txtFirstName.Size = New Size(316, 31)
-        txtFirstName.TabIndex = 2
+        Me.txtFirstName.Location = New System.Drawing.Point(173, 35)
+        Me.txtFirstName.Name = "txtFirstName"
+        Me.txtFirstName.Size = New System.Drawing.Size(316, 31)
+        Me.txtFirstName.TabIndex = 2
         ' 
         ' lblFirstName
         ' 
-        lblFirstName.AutoSize = True
-        lblFirstName.Location = New Point(23, 35)
-        lblFirstName.Name = "lblFirstName"
-        lblFirstName.Size = New Size(97, 25)
-        lblFirstName.TabIndex = 3
-        lblFirstName.Text = "First Name"
+        Me.lblFirstName.AutoSize = True
+        Me.lblFirstName.Location = New System.Drawing.Point(23, 35)
+        Me.lblFirstName.Name = "lblFirstName"
+        Me.lblFirstName.Size = New System.Drawing.Size(97, 25)
+        Me.lblFirstName.TabIndex = 3
+        Me.lblFirstName.Text = "First Name"
         ' 
         ' txtLastName
         ' 
-        txtLastName.Location = New Point(173, 80)
-        txtLastName.Name = "txtLastName"
-        txtLastName.Size = New Size(316, 31)
-        txtLastName.TabIndex = 4
+        Me.txtLastName.Location = New System.Drawing.Point(173, 80)
+        Me.txtLastName.Name = "txtLastName"
+        Me.txtLastName.Size = New System.Drawing.Size(316, 31)
+        Me.txtLastName.TabIndex = 4
         ' 
         ' lblLastName
         ' 
-        lblLastName.AutoSize = True
-        lblLastName.Location = New Point(23, 80)
-        lblLastName.Name = "lblLastName"
-        lblLastName.Size = New Size(95, 25)
-        lblLastName.TabIndex = 5
-        lblLastName.Text = "Last Name"
+        Me.lblLastName.AutoSize = True
+        Me.lblLastName.Location = New System.Drawing.Point(23, 80)
+        Me.lblLastName.Name = "lblLastName"
+        Me.lblLastName.Size = New System.Drawing.Size(95, 25)
+        Me.lblLastName.TabIndex = 5
+        Me.lblLastName.Text = "Last Name"
         ' 
         ' lblGender
         ' 
-        lblGender.AutoSize = True
-        lblGender.Location = New Point(23, 129)
-        lblGender.Name = "lblGender"
-        lblGender.Size = New Size(69, 25)
-        lblGender.TabIndex = 6
-        lblGender.Text = "Gender"
+        Me.lblGender.AutoSize = True
+        Me.lblGender.Location = New System.Drawing.Point(23, 129)
+        Me.lblGender.Name = "lblGender"
+        Me.lblGender.Size = New System.Drawing.Size(69, 25)
+        Me.lblGender.TabIndex = 6
+        Me.lblGender.Text = "Gender"
         ' 
         ' txtGender
         ' 
-        txtGender.Location = New Point(173, 129)
-        txtGender.Name = "txtGender"
-        txtGender.Size = New Size(316, 31)
-        txtGender.TabIndex = 7
+        Me.txtGender.Location = New System.Drawing.Point(173, 129)
+        Me.txtGender.Name = "txtGender"
+        Me.txtGender.Size = New System.Drawing.Size(316, 31)
+        Me.txtGender.TabIndex = 7
         ' 
         ' btnNameGo
         ' 
-        btnNameGo.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(0))
-        btnNameGo.Location = New Point(706, 362)
-        btnNameGo.Name = "btnNameGo"
-        btnNameGo.Size = New Size(112, 66)
-        btnNameGo.TabIndex = 8
-        btnNameGo.Text = "Go"
-        btnNameGo.UseVisualStyleBackColor = False
+        Me.btnNameGo.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnNameGo.Location = New System.Drawing.Point(706, 362)
+        Me.btnNameGo.Name = "btnNameGo"
+        Me.btnNameGo.Size = New System.Drawing.Size(112, 66)
+        Me.btnNameGo.TabIndex = 8
+        Me.btnNameGo.Text = "Go"
+        Me.btnNameGo.UseVisualStyleBackColor = False
         ' 
         ' lstOccupation
         ' 
-        lstOccupation.FormattingEnabled = True
-        lstOccupation.ItemHeight = 25
-        lstOccupation.Items.AddRange(New Object() {"Doctor", "Teacher", "Pilot", "Entrepreneur", "Athelete"})
-        lstOccupation.Location = New Point(638, 37)
-        lstOccupation.Name = "lstOccupation"
-        lstOccupation.Size = New Size(180, 179)
-        lstOccupation.TabIndex = 9
+        Me.lstOccupation.FormattingEnabled = True
+        Me.lstOccupation.ItemHeight = 25
+        Me.lstOccupation.Items.AddRange(New Object() {"Doctor", "Teacher", "Pilot", "Entrepreneur", "Athelete"})
+        Me.lstOccupation.Location = New System.Drawing.Point(638, 37)
+        Me.lstOccupation.Name = "lstOccupation"
+        Me.lstOccupation.Size = New System.Drawing.Size(180, 179)
+        Me.lstOccupation.TabIndex = 9
         ' 
         ' lblOccupation
         ' 
-        lblOccupation.AutoSize = True
-        lblOccupation.Location = New Point(638, 9)
-        lblOccupation.Name = "lblOccupation"
-        lblOccupation.Size = New Size(103, 25)
-        lblOccupation.TabIndex = 10
-        lblOccupation.Text = "Occupation"
+        Me.lblOccupation.AutoSize = True
+        Me.lblOccupation.Location = New System.Drawing.Point(638, 9)
+        Me.lblOccupation.Name = "lblOccupation"
+        Me.lblOccupation.Size = New System.Drawing.Size(103, 25)
+        Me.lblOccupation.TabIndex = 10
+        Me.lblOccupation.Text = "Occupation"
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(859, 450)
-        Controls.Add(lblOccupation)
-        Controls.Add(lstOccupation)
-        Controls.Add(btnNameGo)
-        Controls.Add(txtGender)
-        Controls.Add(lblGender)
-        Controls.Add(lblLastName)
-        Controls.Add(txtLastName)
-        Controls.Add(lblFirstName)
-        Controls.Add(txtFirstName)
-        Controls.Add(btnDataType)
-        Controls.Add(btnStart)
-        Name = "Form1"
-        Text = "Form1"
-        ResumeLayout(False)
-        PerformLayout()
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(859, 450)
+        Me.Controls.Add(Me.lblOccupation)
+        Me.Controls.Add(Me.lstOccupation)
+        Me.Controls.Add(Me.btnNameGo)
+        Me.Controls.Add(Me.txtGender)
+        Me.Controls.Add(Me.lblGender)
+        Me.Controls.Add(Me.lblLastName)
+        Me.Controls.Add(Me.txtLastName)
+        Me.Controls.Add(Me.lblFirstName)
+        Me.Controls.Add(Me.txtFirstName)
+        Me.Controls.Add(Me.btnDataType)
+        Me.Controls.Add(Me.btnStart)
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
     Friend WithEvents btnStart As Button
